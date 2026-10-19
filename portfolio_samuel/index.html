@@ -1,0 +1,176 @@
+<!DOCTYPE html>
+<html lang="fr" data-page="home">
+<head>
+<meta charset="UTF-8" />
+<meta name="viewport" content="width=device-width, initial-scale=1.0" />
+<meta name="description" content="Portfolio de Douan Samuel — photographie et vidéo." />
+<title>Douan Samuel — Photo &amp; Vidéo</title>
+<link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Poppins:wght@300;400;500;600;700;800&family=Caveat:wght@600;700&display=swap" rel="stylesheet">
+<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.6.0/css/all.min.css">
+<link rel="stylesheet" href="style.css"/>
+<link rel="stylesheet" href="fx.css"/>
+<script src="fx.js"></script>
+</head>
+<body>
+
+<div id="particles-js"></div>
+
+<header id="site-header">
+  <a href="#accueil" class="dove-logo" aria-label="Douan Samuel">
+    <span class="dove-text">OPHIMIEN</span>
+    <span class="dove-orbit dove-orbit-a"><span class="dove-electron"></span></span>
+    <span class="dove-orbit dove-orbit-b"><span class="dove-electron"></span></span>
+    <span class="dove-orbit dove-orbit-c"><span class="dove-electron"></span></span>
+  </a>
+
+  <div class="header-actions">
+    <a href="#contact" class="nav-cta">Me contacter</a>
+    <button id="menu-toggle" aria-label="Ouvrir le menu" aria-expanded="false" aria-controls="nav"><span></span><span></span><span></span></button>
+  </div>
+</header>
+
+<nav id="nav" aria-label="Navigation principale" aria-hidden="true">
+  <a href="#accueil" style="--i:0">Accueil</a>
+  <a href="#profil" style="--i:1">À propos</a>
+  <a href="#competences" style="--i:2">Compétences</a>
+  <a href="#services" style="--i:3">Services</a>
+  <a href="#projets" style="--i:4">Galerie</a>
+  <a href="#contact" style="--i:5">Contact</a>
+  <p class="nav-foot" style="--i:6">Douan Samuel · Photo &amp; Vidéo</p>
+</nav>
+
+<section class="home" id="accueil">
+  <div class="home-text" data-reveal="right">
+    <h3>HELLO</h3>
+    <h1>Je suis <span>SAMUEL</span></h1>
+    <h2><span id="typing"></span></h2>
+    <p>Douan Samuel, passionné d'image : je capture des portraits, des ambiances et des histoires, devant et derrière la caméra.</p>
+    <div class="buttons">
+      <a href="#projets" class="btn">Ma galerie</a>
+      <a href="#contact" class="btn2">Me contacter</a>
+      <a href="https://web.facebook.com/wonse.ophimien.samuel.douan?locale=fr_FR" target="_blank" rel="noopener" class="btn-cv"><span class="btn-cv-icon">↗</span>Ma page Facebook</a>
+    </div>
+  </div>
+  <div class="home-image" data-reveal="zoom">
+    <img src="assets/studio.jpg" alt="Portrait de Douan Samuel en polo rose">
+  </div>
+</section>
+
+<section class="about" id="profil">
+  <h2 class="title">À propos</h2>
+  <div class="about-container">
+    <div class="about-image" data-reveal="right">
+      <img src="assets/photo2.jpg" alt="Douan Samuel en tournage avec caméra et stabilisateur">
+      <div class="signature">Ophimien</div>
+    </div>
+    <div class="about-text" data-reveal="left">
+      <h3>Douan Samuel</h3>
+      <p>Photo, vidéo, lumière et cadrage : j'aime raconter par l'image et donner à chaque sujet une présence unique.</p>
+      <p>[À COMPLÉTER : ton parcours, ta ville, depuis quand tu fais de l'image, ce qui te distingue.]</p>
+      <blockquote class="personal-quote">« Une image, mille souvenirs, un instant qui ne veut jamais finir »</blockquote>
+    </div>
+  </div>
+</section>
+
+<section class="skills" id="competences">
+  <h2 class="title">Compétences</h2>
+  <div class="skill"><h3>Photographie de portrait</h3><div class="bar"><span class="b1"></span></div></div>
+  <div class="skill"><h3>Vidéo &amp; tournage</h3><div class="bar"><span class="b2"></span></div></div>
+  <div class="skill"><h3>Montage vidéo</h3><div class="bar"><span class="b3"></span></div></div>
+  <div class="skill"><h3>Retouche photo</h3><div class="bar"><span class="b4"></span></div></div>
+  <div class="skill"><h3>Lumière &amp; studio</h3><div class="bar"><span class="b5"></span></div></div>
+  <div class="skill"><h3>Direction visuelle</h3><div class="bar"><span class="b6"></span></div></div>
+</section>
+
+<section class="services" id="services">
+  <h2 class="title">Mes Services</h2>
+  <div class="cards">
+    <a class="card" href="#projets" data-reveal="zoom"><i class="fas fa-camera"></i><h3>Photo portrait</h3><p>Séances en studio ou en extérieur, lumière soignée.</p><span class="service-link">Voir la galerie <i class="fas fa-arrow-right"></i></span></a>
+    <a class="card" href="#projets" data-reveal="zoom"><i class="fas fa-video"></i><h3>Vidéo &amp; tournage</h3><p>Prises de vue stabilisées, image et son propres.</p><span class="service-link">Voir la galerie <i class="fas fa-arrow-right"></i></span></a>
+    <a class="card" href="#projets" data-reveal="zoom"><i class="fas fa-film"></i><h3>Montage</h3><p>Montage et étalonnage pour un rendu cohérent.</p><span class="service-link">Voir la galerie <i class="fas fa-arrow-right"></i></span></a>
+    <a class="card" href="#projets" data-reveal="zoom"><i class="fas fa-wand-magic-sparkles"></i><h3>Retouche</h3><p>Retouche photo naturelle, couleurs et contraste maîtrisés.</p><span class="service-link">Voir la galerie <i class="fas fa-arrow-right"></i></span></a>
+  </div>
+</section>
+
+<section class="projects" id="projets">
+  <h2 class="title">Ma Galerie</h2>
+  <div class="project-container">
+   <a href="assets/studio.jpg" target="_blank" rel="noopener"><div class="project" data-reveal="up">
+      <img src="assets/studio.jpg" alt="Portrait studio" style="object-position:50% 22%">
+      <div class="overlay"><div><h3>Portrait studio</h3><p>Séance en lumière douce sur fond clair</p></div></div>
+    </div></a>
+   <a href="assets/exterieur.jpg" target="_blank" rel="noopener"><div class="project" data-reveal="up">
+      <img src="assets/exterieur.jpg" alt="Portrait en extérieur" style="object-position:50% 30%">
+      <div class="overlay"><div><h3>Portrait extérieur</h3><p>Lumière naturelle et verdure</p></div></div>
+    </div></a>
+   <a href="assets/noirblanc.jpg" target="_blank" rel="noopener"><div class="project" data-reveal="up">
+      <img src="assets/noirblanc.jpg" alt="Noir et blanc" style="object-position:50% 40%">
+      <div class="overlay"><div><h3>Noir &amp; blanc</h3><p>Le regard derrière l'objectif</p></div></div>
+    </div></a>
+  </div>
+</section>
+
+<section id="contact">
+  <h2 class="title">Contact</h2>
+  <p class="contact-intro">Un shooting, un tournage, une collaboration ? Écris-moi, je répondrai avec plaisir.</p>
+  <div class="contact-data">
+    <div><small>FACEBOOK</small><a href="https://web.facebook.com/wonse.ophimien.samuel.douan?locale=fr_FR" target="_blank" rel="noopener">Douan Samuel</a></div>
+    <div><small>EMAIL</small><span>douansamuel@gmail.com</span></div>
+  </div>
+  <form id="contact-form">
+    <input type="text" name="nom" placeholder="Nom" required>
+    <input type="email" name="email" placeholder="Email" required>
+    <textarea name="message" placeholder="Votre message" required></textarea>
+    <input type="text" name="site_web" class="hp-field" tabindex="-1" autocomplete="off" aria-hidden="true">
+    <button type="submit">Envoyer</button>
+    <p class="form-feedback" id="form-feedback"></p>
+  </form>
+</section>
+
+<!-- ================================
+     BOUTON WHATSAPP FLOTTANT
+================================= -->
+
+<a
+  href="https://wa.me/225763844158"
+  class="whatsapp-float"
+  target="_blank"
+  rel="noopener noreferrer"
+  aria-label="Contacter Douan Samuel sur WhatsApp"
+>
+  <!-- Ondes animées autour du bouton -->
+  <span class="whatsapp-wave"></span>
+  <span class="whatsapp-wave whatsapp-wave-delay"></span>
+
+  <!-- Icône WhatsApp -->
+  <span class="whatsapp-icon">
+    <svg
+      viewBox="0 0 32 32"
+      xmlns="http://www.w3.org/2000/svg"
+      aria-hidden="true"
+    >
+      <path
+        fill="currentColor"
+        d="M16.04 3C8.87 3 3.04 8.75 3.04 15.82c0 2.5.74 4.94 2.14 7.02L3 29l6.37-2.09a13.1 13.1 0 0 0 6.66 1.8h.01c7.17 0 13-5.75 13-12.82C29.04 8.75 23.21 3 16.04 3Zm0 23.5c-2.03 0-4.02-.54-5.77-1.57l-.41-.24-3.78 1.24 1.23-3.67-.27-.42a10.57 10.57 0 0 1-1.63-5.64c0-5.85 4.77-10.61 10.63-10.61 5.86 0 10.63 4.76 10.63 10.61 0 5.85-4.77 10.3-10.63 10.3Zm5.83-7.95c-.32-.16-1.9-.93-2.2-1.04-.3-.11-.51-.16-.72.16-.21.32-.83 1.04-1.02 1.25-.19.21-.38.24-.7.08-.32-.16-1.35-.49-2.57-1.55-.95-.82-1.59-1.83-1.78-2.15-.19-.32-.02-.5.14-.66.14-.14.32-.38.48-.57.16-.19.21-.32.32-.53.11-.21.05-.4-.03-.56-.08-.16-.72-1.73-.99-2.37-.26-.62-.53-.54-.72-.55h-.62c-.21 0-.56.08-.85.4-.29.32-1.12 1.09-1.12 2.66s1.15 3.09 1.31 3.3c.16.21 2.26 3.44 5.48 4.82.77.33 1.37.53 1.84.68.77.24 1.47.21 2.02.13.62-.09 1.9-.77 2.17-1.52.27-.75.27-1.39.19-1.52-.08-.13-.29-.21-.61-.37Z"
+      />
+    </svg>
+  </span>
+
+  <!-- Texte du bouton -->
+  <span class="whatsapp-tooltip">
+    Discutons d'un projet
+  </span>
+</a>
+
+<footer>
+  <h2>SAMUEL</h2>
+  <p>D O V E, tous droits réservés © <span id="year"></span></p>
+</footer>
+
+<script src="https://cdn.jsdelivr.net/npm/typed.js@2.0.12"></script>
+<script src="https://cdn.jsdelivr.net/npm/particles.js"></script>
+<script src="script.js"></script>
+</body>
+</html>
